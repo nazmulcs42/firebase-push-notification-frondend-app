@@ -18,19 +18,19 @@ Second, install the project dependencies:
 
   npm install
 ```
-Third, config the environment file:
+Third, copy the environment file:
 ```bash
 
   cp .env.example .env
 ```
 
-Fourth, config the environment file:
+Fourth, create project for firebase Fcm:
 ```bash
 
   Follow the instruction given for step-by-step Firebase setup guideline below.
 ```
 
-Fifth, set values for: 
+Fifth, set values for the corresponding environment variables: 
 ```bash
 
   # .env
