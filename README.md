@@ -64,16 +64,6 @@ Finally, run the development server:
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-
-### Contact Information
-```bash
-  Developed By
-  Md. Nazmul Islam
-  Software Engineer
-  nazmul.islam.lotif@gmail.com
-```
-
-
 ### Step-by-step Firebase setup guide
 
 1. Create a Firebase project from: https://console.firebase.google.com/
@@ -99,3 +89,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
    ▸ Service accounts:
      - Generate a new private key
      - This is used in server-side applications to send notifications securely via FCM
+  
+
+
+
+### Contact Information
+```bash
+  Developed By
+  Md. Nazmul Islam
+  Software Engineer
+  nazmul.islam.lotif@gmail.com
+```
+
