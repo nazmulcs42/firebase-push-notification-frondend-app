@@ -23,7 +23,49 @@ Third, config the environment file:
 
   cp .env.example .env
 ```
-Fourth, set values for: 
+
+Fourth, config the environment file:
+```bash
+
+  Create a firebase project from  [https://console.firebase.google.com/](https://console.firebase.google.com/) 
+  After creating the project, it will redirect you to the project interface
+  Click on the setting icon button (On the left sidebar, under Project Overview, look to the top right corner for a gear icon ⚙️ (Settings))
+  Choose Project settings from dropdown menu
+  Setup and switch in bewteen
+    General: get project id from here. you can also click on the Web app (</>) you registered
+    Cloud Messaging: Web Push certificates > (generate key pair)
+    Service accounts: Generate new private key for server-side application
+
+```
+or 
+# Step-by-step Firebase setup guide
+
+1. Create a Firebase project from: https://console.firebase.google.com/
+
+2. After creating the project, you’ll be redirected to the project interface.
+
+3. Click on the ⚙️ Settings icon 
+   (Located at the top right corner under the "Project Overview" section on the left sidebar)
+
+4. Choose "Project settings" from the dropdown menu.
+
+5. In the Project settings page, use the tabs to configure the following:
+
+   ▸ General:
+     - Copy your Project ID
+     - Scroll down and click on the Web app (</>) you registered
+     - You'll find your Firebase config snippet here
+
+   ▸ Cloud Messaging:
+     - Scroll to "Web Push certificates"
+     - Generate a new key pair (VAPID key) — required for web push notifications
+
+   ▸ Service accounts:
+     - Generate a new private key
+     - This is used in server-side applications to send notifications securely via FCM
+
+
+Fifth, set values for: 
 ```bash
 
   # .env
