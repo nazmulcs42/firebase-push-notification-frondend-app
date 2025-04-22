@@ -5,17 +5,24 @@
 This particular application is built with the **Next.js** framework, leveraging a **JavaScript-based client-side** implementation. It serves as a **testing interface** for your server-side Firebase Cloud Messaging (FCM) setup, allowing you to easily verify and debug your push notification integrations.
 
 ### Configuration
-First, config the development server:
+First, clone the project:
+```bash
+
+git clone https://github.com/nazmulcs42/firebase-push-notification-frondend-app.git
+or
+git clone git@github.com:nazmulcs42/firebase-push-notification-frondend-app.git
+```
+Second, config the development server:
 ```bash
 
 npm install
 ```
-Second, config the environment file:
+Third, config the environment file:
 ```bash
 
 cp .env.example .env
 ```
-Third, set values for 
+fourth, set values for: 
 ```bash
 
 # .env
