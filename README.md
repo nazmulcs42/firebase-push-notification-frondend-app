@@ -9,7 +9,8 @@ First, clone the project:
 ```bash
 
 git clone https://github.com/nazmulcs42/firebase-push-notification-frondend-app.git
-or
+
+or,
 git clone git@github.com:nazmulcs42/firebase-push-notification-frondend-app.git
 ```
 Second, config the development server:
