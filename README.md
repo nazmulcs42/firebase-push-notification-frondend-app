@@ -13,7 +13,7 @@ git clone https://github.com/nazmulcs42/firebase-push-notification-frondend-app.
 or,
 git clone git@github.com:nazmulcs42/firebase-push-notification-frondend-app.git
 ```
-Second, config the development server:
+Second, install the project dependencies:
 ```bash
 
 npm install
@@ -23,7 +23,7 @@ Third, config the environment file:
 
 cp .env.example .env
 ```
-fourth, set values for: 
+Fourth, set values for: 
 ```bash
 
 # .env
