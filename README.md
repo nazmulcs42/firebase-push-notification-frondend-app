@@ -21,10 +21,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 
-##### Developer
 ```bash
-*Md. Nazmul Islam*
-*Software Engineer*
-*nazmul.islam.lotif@gmail.com*
+Developed By
+Md. Nazmul Islam
+Software Engineer
+nazmul.islam.lotif@gmail.com
 ```
 
