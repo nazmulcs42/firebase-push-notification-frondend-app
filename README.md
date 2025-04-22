@@ -4,7 +4,7 @@
 
 This particular application is built with the **Next.js** framework, leveraging a **JavaScript-based client-side** implementation. It serves as a **testing interface** for your server-side Firebase Cloud Messaging (FCM) setup, allowing you to easily verify and debug your push notification integrations.
 
-##### Configuration
+### Configuration
 First, config the development server:
 ```bash
 
@@ -50,7 +50,7 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-##### Contact Information
+### Contact Information
 ```bash
 Developed By
 Md. Nazmul Islam
